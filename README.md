@@ -1,2 +1,4 @@
 # MECC_Feedback_Linearization
-Feedback linearization math and simulations for three-state biological nonlinear model
+Feedback linearization math and simulations for three-state biological nonlinear model. 
+
+The Cont_Obs_3state.m file can be used to see the calcualtions for controllability and observability of the linearized system. The Feedback_Lin_3state.m file works through the lie derivatives and brackets to prove the system is feedback linearizable. The liebracket.m file is a function to calculate lie brackets, and is used in the Feedback_Lin_3state.m file. The Feedback_Lin_MECC.slx file is a Simulink file to run the simulation. The sim_main_script_newparams.m file runs the Simulink file and provides needed inputs used to obtain the figures in the results section of the MECC paper. The ref_signal.m file is called in the Simulink file, and is the reference equation used for y_d in reference tracking.
